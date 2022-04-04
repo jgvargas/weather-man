@@ -23,7 +23,7 @@ html {
 .card {
     background: rgba(32, 51, 158, 0.8);
     color: rgb(223, 222, 222);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 30px;
     width: 100%;
     display: flex;
@@ -89,3 +89,24 @@ html {
     max-width: 310px;
 }
 
+.weather-info {
+    
+}
+
+.city {
+
+}
+
+.temp {
+    margin: .5rem 0;
+}
+
+.delete-btn {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: none;
+    height: 25px;
+    margin-left: .5rem;
+    width: 25px;
+}
